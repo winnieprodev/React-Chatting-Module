@@ -1,0 +1,210 @@
+.mainFrame{
+    height: auto;
+    width: 420px;
+    border: 1px solid #abd;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: 20px
+}
+
+.chatHeader{
+    height: 50px;
+    background-color: #3d8bcd;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.searchBox{
+    margin-top: 14px
+}
+
+.chatBoxTitle {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.createButtonContainer{
+    text-align: center;
+    align-items: center;
+}
+
+.createButton {
+    background-color: #3d8bcd !important;
+    background-image: none;
+    align-items: center;
+    text-align: center;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    margin-left: 16px;
+    margin-top: 20px
+}
+
+.chatListContainer {
+    margin-top: 16px;
+}
+
+.chatList {
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.chatListItem {
+    height: 52px;
+    width: '100%';
+    border-top: 1px solid #d0d1d3;
+    border-bottom: 1px solid #d0d1d3;
+    align-items: center;
+    display: flex;
+}
+
+.chatListItemTitle {
+    padding-left: 16px;
+}
+
+.deleteMemberButton {
+    padding: 0px;
+    float: right;
+    margin-right: 16px;
+    margin-left: auto;
+}
+
+.receivedMessageContainer {
+    height: auto;
+    width: 320px;
+    border-radius: 12px;
+    float: left;
+    margin-left: -3px !important;
+    background-color: #f2f6f9;
+}
+
+.receivedMessage {
+    padding: 10px; 
+}
+
+.sentMessageContainer {
+    height: auto;
+    width: 320px;
+    border-radius: 12px;
+    float: right;
+    margin-right: -3px !important;
+    margin-top: 40px;
+    background-color: #dbf4fd;
+}
+
+.sentMessage {
+    padding: 10px;
+    
+}
+
+.sentFileContainer {
+    height: auto;
+    width: 320px;
+    border-radius: 12px;
+    float: right;
+    margin-right: -3px !important;
+    margin-top: 40px;
+    background-color: #dbf4fd;
+}
+
+.sentFileName {
+    padding: 8px;
+    
+}
+
+.sendMessageFieldContainer{
+    border-top: #d0d1d3 1px solid;
+    height: auto;
+    margin-top:20px !important;
+    width:100%;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.emoji-mart
+{
+    position: relative;
+}
+.sendMessageFieldContainer .input-group-append .input-group-text
+{
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+/* .sendMessageField {
+    margin-top: 16px;
+} */
+
+.attachButtonContainer{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.createGroupContainer {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.cancelbtn
+{
+    margin-right: auto !important;
+}
+
+.createGroupChatListContainer {
+    border: #3d8bcd 1px solid;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px
+} 
+
+.messageContainer {
+    overflow-y: auto;
+    height: 340px;
+}
+
+.sendButton {
+    background-color: #3d8bcd !important;
+    background-image: none;
+    align-items: center;
+    text-align: center;
+    padding-left: 12px !important;
+    padding-right:12px !important;
+}
+
+.sendButtonContainer
+{
+    height:100%;
+    align-items: center;
+}
+
+.attachmentfile
+{
+    border-color: #d0d1d3;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.count
+{
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color:white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-group
+{
+    margin-bottom: 0px;
+}

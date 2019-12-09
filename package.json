@@ -1,0 +1,63 @@
+{
+  "name": "chatapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@webscopeio/react-textarea-autocomplete": "^4.6.1",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "chance": "^1.1.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "emoji-mart": "^2.11.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "material-ui": "^0.20.2",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-bootstrap-typeahead": "^3.4.7",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.9.0",
+    "react-feather": "^2.0.3",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.1.2",
+    "reactjs-chatapp": "^1.0.22",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "sqlite3": "^4.1.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\"  \"nodemon src/server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
